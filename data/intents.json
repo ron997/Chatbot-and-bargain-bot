@@ -1,0 +1,99 @@
+{
+	"intents": [{
+			"tag": "greeting",
+			"patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up", "hey"],
+			"responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
+			"context_set": ""
+		},
+		{
+			"tag": "goodbye",
+			"patterns": ["cya", "See you later", "Good bye", "I am Leaving", "Have a Good day"],
+			"responses": ["Talk to you later", "Good bye!"],
+			"context_set": ""
+		},
+		{
+			"tag": "name",
+			"patterns": ["what is your name", "what should I call you", "are you a bot"],
+			"responses": ["You can call me Bargainly.", "I'm Bargainly!", "I'm called as Bargainly"],
+			"context_set": ""
+		},
+		{
+			"tag": "hours",
+			"patterns": ["when are you guys open", "what are your hours", "hours of operation"],
+			"responses": ["We are open 7am-4pm Monday-Friday!", "We are available from Monday-Friday (7am-4pm)"],
+			"context_set": ""
+		},
+		{
+			"tag": "query_receive",
+			"patterns": ["When i will receive", "How long to receive"],
+			"responses": ["You will get your products delivered by tomorrow."],
+			"context_set": ""
+		},
+		{
+			"tag": "thanks",
+			"patterns": ["Thanks", "Thank you", "That is helpful"],
+			"responses": ["Happy to help!", "Any time!", "My pleasure"],
+			"context_set": ""
+		},
+		{
+			"tag": "payments",
+			"patterns": ["credit cards", "bKash", "which payment methods"],
+			"responses": ["We accept VISA, Mastercard and bKash", "We accept most major credit cards and bKash"],
+			"context_set": ""
+		},
+		{
+			"tag": "coupon",
+			"patterns": ["a coupon", "send coupon", "any coupon code"],
+			"responses": ["Sorry, no coupons are available right now!", "No coupon available", "Not available right now"],
+			"context_set": ""
+		},
+		{
+			"tag": "refund",
+			"patterns": ["a refund", "Can I get a refund", "refund policy"],
+			"responses": ["You will get a refund if your criteria meets the refund policy, sir."],
+			"context_set": ""
+		},
+		{
+			"tag": "return",
+			"patterns": ["return product", "product is defective", "product does not work"],
+			"responses": ["Sorry for the bad experience. We will contact with you as soon as we can."],
+			"context_set": ""
+		},
+		{
+			"tag": "change_order",
+			"patterns": ["change my order", "new products to order", "change some products from the order"],
+			"responses": ["Yes sir in order to change you have to call our helpline", "Call our helpline or Email us to change the order."],
+			"context_set": ""
+		},
+		{
+			"tag": "cancel_order",
+			"patterns": ["cancel my orders", "cancel my previous order", "Can I cancel"],
+			"responses": ["Yes sir, you can cancel the order on the same day of placing an order, but not after that. Thank you"],
+			"context_set": ""
+		},
+		{
+			"tag": "discount",
+			"patterns": ["any discount", "get discount"],
+			"responses": ["At the moment there is no discount available", "There is no discount available at this moment"],
+			"context_set": ""
+		},
+		{
+			"tag": "stock",
+			"patterns": ["product available in stock", "Is it available?"],
+			"responses": ["Yes sir, it is available in the stock.", "Yes it is available."],
+			"context_set": ""
+		},
+		{
+			"tag": "quality",
+			"patterns": ["product quality bad", "product is useless", "not working"],
+			"responses": ["Sorry sir ! Call our helpline for exchange ", "Sorry sir! You will receive a fresh product by tomorrow."],
+			"context_set": ""
+		},
+		{
+			"tag": "delivery_fee",
+			"patterns": ["shipping cost ", "shipping fee", "delivery fee"],
+			"responses": ["Inside Dhaka it is free! Outside Dhaka 120tk only"],
+			"context_set": ""
+		}
+	]
+}

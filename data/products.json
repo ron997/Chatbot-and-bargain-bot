@@ -1,0 +1,31 @@
+{
+	"#PD001": {
+    	"name": "Red Shirt",
+    	"cost_price": 100,
+        "tag": ["shirt", "red", "striped"],
+        "exp_profit_percent": 25,
+        "claim_score" : 8.5
+    },
+    "#PD002": {
+    	"name": "Blue Shirt",
+    	"cost_price": 1200,
+        "tag": ["shirt", "red", "striped"],
+        "exp_profit_percent": 25,
+        "claim_score" : 7.5
+    },
+    "#PD003": {
+    	"name": "Violet Pant",
+    	"cost_price": 1350,
+        "tag": ["shirt", "red", "striped"],
+        "exp_profit_percent": 25,
+        "claim_score" : 9.5
+    },
+    "#PD004": {
+    	"name": "Grey Suit",
+    	"cost_price": 1100,
+        "tag": ["shirt", "red", "striped"],
+        "exp_profit_percent": 25,
+        "claim_score" : 3.5
+    }
+}
+
